@@ -14,8 +14,8 @@ export default function Home() {
           News
         </h2>  
         <div className="flex flex-wrap items-center justify-center m-auto mt-3">
-          <div className="w-full  md:w-1/3 px-2 mb-4">
-            <div className="from-yellow-600  to-white bg-gradient-to-r rounded shadow py-2">
+          <div className="w-full md:w-1/3 px-2 mb-4 ">
+            <div className="from-yellow-600  to-white bg-gradient-to-r rounded shadow py-2 border-solid">
               <p className="text-gray-800 text-base px-6 mb-5 text-center font-bold">
                 India
               </p>
@@ -41,10 +41,10 @@ export default function Home() {
           <div className="w-full  md:w-1/3 px-2 mb-4">
             <div className="from-red-600  to-white bg-gradient-to-r rounded shadow py-2">
               <p className="text-gray-800 text-base px-6 mb-5 text-center font-bold">
-                Cananda{" "}
+                Cananda
               </p>
               <Link href="/news/ca/1">
-                <button className="bg-blue-500  w-full  md:w-1/3 px-2 mb-4 font-bold rounded py-4 mx-9 my-3.5 shadow-lg ml-40 uppercase text-white">
+                <button className="bg-black  w-full  md:w-1/3 px-2 mb-4 font-bold rounded py-4 mx-9 my-3.5 shadow-lg ml-40 uppercase text-white">
                   View More
                 </button>
               </Link>

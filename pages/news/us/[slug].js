@@ -37,7 +37,7 @@ export const USNews = ({ articles, pageNumber }) => {
           ))}
         </div>
       </div>
-      <div className="w-auto flex justify-center">
+      <div className="w-auto flex justify-center mx-4 my-5">
     <div
        className={pageNumber === 1 ?  "cursor-not-allowed":"cursor-pointer"}
       onClick={() => {
@@ -48,7 +48,7 @@ export const USNews = ({ articles, pageNumber }) => {
     >
       Previous Page
     </div>
-    <div>#{pageNumber}</div>
+    <div>&nbsp;#{pageNumber}&nbsp;</div>
     <div
     className={pageNumber === 5 ? "cursor-not-allowed":"cursor-pointer"}
       onClick={() => {

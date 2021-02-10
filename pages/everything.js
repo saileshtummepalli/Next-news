@@ -57,7 +57,7 @@ function Everything() {
                   <div class="text-indigo-500">
                     <small class="uppercase">{a.author}</small>
                     <h6
-                      class=" text-black font-medium"
+                      class=" text-black font-medium cursor-pointer"
                       onClick={() => (window.location.href = a.url)}
                     >
                       {a.title}
